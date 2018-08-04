@@ -1,6 +1,11 @@
 .idea/*
 *.json
 .idea
+
+# npm pockets
 node_modules/
+dist/
+
+# mac
 .DS_Store
 *.iml
