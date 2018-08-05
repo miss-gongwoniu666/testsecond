@@ -8,14 +8,22 @@
             width: 100px;
             height: 100px;
         }
+        .dev-two{
+            background: pink;
+            color: #000;
+        }
     </style>
 </head>
 <body>
 <div onclick="dev()">dev</div>
+<div class="dev-two" onclick="devtwo()">dev-two</div>
 <script>
     var dev = function () {
         console.log('wo shi dev')
-    }
+    };
+    var devtwo = function () {
+        console.log('second admit to dev')
+    };
 </script>
 </body>
 </html>
