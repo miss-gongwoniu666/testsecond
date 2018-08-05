@@ -7,12 +7,17 @@
 <body>
 <div onclick="three()">我想试一下版本回退</div>
 <div onclick="kaifa()">接着开发了40%，查看一下具体的版本回退会不会出现问题</div>
+<div onclick="add()">git checkout -- index.html</div>
+
 <script>
     function three(){
         console.log('three,xiangyong zhege kankan ')
     }
     function kaifa(){
         console.log('kai,fai')
+    }
+    function add(){
+        console.log('先add到暂存区,使用git reset 大写的head 文件，退回到工作区')
     }
 </script>
 </body>
