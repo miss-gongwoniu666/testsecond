@@ -17,6 +17,7 @@
 <body>
 <div onclick="dev()">dev</div>
 <div class="dev-two" onclick="devtwo()">dev-two</div>
+<div class="company-add" onclick="companyAdd()">我是在公司电脑上提交的</div>
 <script>
     var dev = function () {
         console.log('wo shi dev')
@@ -24,6 +25,9 @@
     var devtwo = function () {
         console.log('second admit to dev')
     };
+    var companyAdd = function () {
+        console.log('使用git checkout -b dev origin/dev方法生成的dev，并和home提交的远程dev分支建立连接')
+    }
 </script>
 </body>
 </html>
