@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微信授权</title>
+</head>
+<body>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+    var get_token = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx5c3a45fed1776d12&secret=SECRET&code=0061qzgjM026Yi52eQMhM04UljM0qzgj2&grant_type=authorization_code';
+
+    $.ajax({
+        url: get_token,
+        dataType: 'jsonp',
+        success: function (data,status) {
+            console.log(data,status)
+        },
+    })
+</script>
+</body>
+</html>
